@@ -1,0 +1,43 @@
+# Sanal ortam klasörü
+venv/
+ENV/
+env/
+
+# Python önbellek dosyaları
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter notebook checkpoint dosyaları
+.ipynb_checkpoints/
+
+# Derlenmiş Python dosyaları
+*.pyd
+*.so
+*.dll
+*.o
+*.a
+
+# TensorFlow/Keras model dosyaları
+*.h5
+*.hdf5
+*.pb
+*.tflite
+
+# IDE ve editör dosyaları
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
+
+# Log dosyaları
+*.log
+
+# Çıktı klasörleri
+build/
+dist/
+*.egg-info/
